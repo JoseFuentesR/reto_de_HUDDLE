@@ -1,0 +1,99 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    }
+    body{
+      background: url('img/bg-mobile.svg') no-repeat;
+      background-color: var(--Violet);
+      background-size: 100%;
+    }
+    .container{
+        padding: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    .imagen1{
+        height:30px;
+        margin-bottom: 120px;
+    }
+    .imagen1 img{
+        height: 50px;
+        margin-left: 50px;
+        margin-top:10px;
+    }
+    .imagen2 img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .escribir {
+        margin-top: 100px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .escribir h2{
+        margin-bottom: 50px; 
+        
+    }
+    .escribir p{
+        margin-bottom: 60px;
+        font-size: 15px;
+    }
+    .lm{
+        margin-bottom: 50px;
+    }
+    .lm a{
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 60px;
+        padding-right:60px;
+        border-radius: 25px;
+        font-size: 15px;
+        background: white;
+        text-align: center;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        
+        
+    }
+    .footer i{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 40pxd;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    }
+    @media screen and (min-width: 768px){
+        body{
+            background: url('img/bg-desktop.svg') no-repeat;
+            background-color: var(--Violet);
+            background-size: 100%;
+          }
+          .vuelta{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+          .footer{
+              padding-left: 900px;
+              margin-bottom:40px;
+          }
+            .footer i{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 40pxd;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    }
+          }
